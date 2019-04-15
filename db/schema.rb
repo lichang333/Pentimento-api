@@ -33,6 +33,12 @@ ActiveRecord::Schema.define(version: 2018_12_06_091106) do
     t.string "address"
     t.string "phone_number"
     t.string "website_url"
+    t.string "hours_operation"
+    t.string "latitude"
+    t.string "longitude"
+    t.string "num_artists"
+    t.string "num_arts"
+    t.string "num_nations"
     t.boolean "locked", default: false
     t.string "pin"
     t.datetime "created_at", null: false
